@@ -358,10 +358,10 @@ p { margin: 0 0 1em; }
   .specs { grid-template-columns: 1fr; }
   .stats { grid-template-columns: 1fr; gap: 28px; }
   .hero { min-height: 78vh; }
-  .hero__media img { object-position: 68% center; }
+  .hero__media img { object-position: 30% center; }
   .hero__media::after {
     background:
-      linear-gradient(180deg, rgba(10, 8, 6, 0.3) 0%, rgba(10, 8, 6, 0.18) 35%, rgba(10, 8, 6, 0.76) 100%);
+      linear-gradient(180deg, rgba(10, 8, 6, 0.32) 0%, rgba(10, 8, 6, 0.3) 35%, rgba(10, 8, 6, 0.82) 100%);
   }
   .card__actions .btn { width: 100%; justify-content: center; }
   .grid-3 { grid-template-columns: 1fr; }
