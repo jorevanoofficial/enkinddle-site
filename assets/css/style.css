@@ -367,6 +367,10 @@ p { margin: 0 0 1em; }
   .grid-3 { grid-template-columns: 1fr; }
 }
 
+@media (min-width: 561px) and (max-width: 1180px) {
+  .hero__media img { object-position: 22% center; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
